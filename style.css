@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.178);
+    flex-wrap: wrap;
+  }
+
+  .logo{
+    width: 60px;
+    margin-right: 15px;
+    margin-left: -90px;
+    
+    
+  }
+
+  .inicio{
+    background-color: #000000;
+    text-align: center;
+  
+  }
+  .intrainicio{
+    position: relative;
+  }
+
+  .oqueétrafego{
+    width: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+  }
+
+  .Impulsione{
+    position: absolute;
+    top: 30%;
+ 
+  }
+
+  .signup {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+    width: 270px;
+    margin-top: 20px;
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.103);
+  }
+
+
+
+  h1 {
+    margin: 0;
+  }
+  
+  .hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #E63CC1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btn {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: .4s;
+    font-family: 'Poppins', sans-serif;
+  }
+  .btn:hover{
+    background-color: black;
+    box-shadow: 0px 0px 20px  #E63CC1 ;
+    transition: .4s;
+  }
+
+  .logologin{
+    width: 140px;
+  }
+ 
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+    border-radius: 0px 20px;
+  }
+
+  input[type="text"]:focus,
+  input[type="number"]:focus{
+    box-shadow: 0px 0px 20px #E63CC1;
+    transition: 0.4s;
+  }
+  
+  button[type="submit"] {
+    background-color:#E63CC1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+  }
+  
+  .segundo{
+    display: block;
+  }
+
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.beneficios{
+  background-image:linear-gradient(-45deg,#E63CC1,#ff7ee3,#f584dc);
+  height: 1000px;
+}
+
+.faixa{
+  width: 100vw;
+  padding: 30px;
+  text-align: center;
+  margin-top: -4px;
+  margin-left: -50px;
+  
+}
+
+.textofaixa{
+  color: white;
+  font-size: 3em;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.37);
+  font-family: 'Poppins', sans-serif;
+}
+
+.bloco{
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 0px 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.textodobloco{
+  width: 400px;
+}
+
+
+.gestordetráfego{
+  color: #E63CC1;
+  font-size: 3.5em;
+  padding-bottom: 20px;
+  width: 70vw;
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
+  margin-left: -50px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.textodoinicio{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: white;
+  width: 60vw;
+  margin-left: 50px;
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+}
+
+.ultimachamada{
+  color: white;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+}
+
+.divisao, .divisao2{
+  display: flex;
+  justify-content: center;
+  margin-left: -50px;
+}
+
+@media(max-width: 1440px){
+  .textodobloco{
+    width:300px;
+  }
+
+  .logologin{
+    width: 90px;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+  .ultimachamada{
+    font-size: 1em;
+  }
+
+
+  .gestordetráfego{
+    font-size: 2.5em;
+    margin-left: -20px;
+  }
+
+  .textodoinicio{
+    font-size: 1.3em;
+  }
+
+  .textofaixa{
+    font-size: 2em;
+  }
+
+  .beneficios{
+    height: 1100px;
+  }
+}
+
+@media (max-width: 1024px){ 
+  .gestordetráfego{
+    font-size: 1.7em;
+    margin-left: -55px;
+  }
+
+  .textodoinicio{
+    font-size: 1em;
+    width: 500px;
+  }
+
+  .signup{
+    left: 60%;
+  }
+
+  .textofaixa{
+    margin-left: -400px;
+  }
+
+  .textodobloco{
+    width: 250px;
+  }
+
+  .divisao,.divisao2{
+    margin:20px;
+  }
+
+
+  .beneficios{
+    height: 1300px;
+  }
+
+  .textofaixa{
+    margin-top: 30px;
+  }
+
+  .ultimachamada{
+    font-size: 0.9em
+  }
+
+}
+
+@media (max-width: 500px){
+  .oqueétrafego{
+    height: 300px;
+  }
+
+  .gestordetráfego{
+    font-size: 1em;
+  }
+
+  .textodoinicio{
+    font-size: 0.7em;
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 23px;
+  }
+
+  .logo{
+    width: 40px;
+  }
+
+  .titulo{
+    font-size: 1.5em;
+  }
+
+  .signup{
+    width: 140px;
+    left: 49%;
+  }
+
+  .logologin{
+    width: 50px;
+    margin-top: -10px;
+  }
+
+  h2{
+    font-size: 1em;
+  }
+
+  .ultimachamada{
+    margin-top: -18px;
+    font-size: 0.6em;
+  }
+
+  .btn{
+    width: 178px;
+    height: 40px;
+    font-size: .8em;
+    margin-top: -1px;
+    margin-left: -10px;
+    margin-bottom: -200px;
+  }
+
+  
+  input[type="text"],
+  input[type="number"]{
+    margin-top: -10px;
+    width: 155px;
+    margin-left: -10px;
+    height: 7px;
+  }
+
+  .textodobloco{
+    font-size: 0.7em;
+    width: 200px;
+  }
+
+  .divisao,.divisao2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .textofaixa{
+    margin:auto;
+    font-size: 1em;
+    margin-top: 150px;
+    background-color: #E63CC1;
+    padding:20px;
+    border-radius: 0px 30px;
+    width: 300px;
+    
+  }
+
+  .signup{
+    padding-bottom: 40px;
+  }
+
+  .beneficios{
+    height: 2550px;
+  }
+
+  footer{
+    font-size: .7em;
+  }
+}
+
+.corpo{
+  background-image:linear-gradient(-45deg,#E63CC1,#ff7ee3,#f584dc);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.parabens{
+  font-size: 2em;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+
+.link{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #E63CC1;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.link:hover{
+  background-color: black;
+  box-shadow:0px 0px 30px #ff00c8;
+  transition: .4s;
+}
